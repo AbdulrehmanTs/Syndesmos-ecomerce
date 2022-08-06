@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syndesmos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css" integrity="sha512-R+xPS2VPCAFvLRy+I4PgbwkWjw1z5B5gNDYgJN5LfzV4gGNeRQyVrY7Uk59rX+c8tzz63j8DeZPLqmXvBxj8pA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body class="border" >
+    <header class="wrapper">
+
+        <!-- header top section -->
+        <div class="w-[100%] px-[20px] bg-[#009289] h-[30px] flex justify-center md:justify-between ">
+            <div class="w-[33%] hidden lg:block ">
+                <!-- empty -->
+            </div>
+            <div class=" w-[100%] md:w-[45%] lg:w-[33%] flex justify-center items-center ">
+                <ul class="flex font-semibold text-[#fff] text-[12px] " >
+                    <li class="mx-2 md:mx-4">Εταιρία</li>
+                    <li class="mx-2 md:mx-4">Νέα</li>
+                    <li class="mx-2 md:mx-4">Επικοινωνία</li>
+                    <li class="mx-2 md:mx-4">Κατηγορίες</li>
+                    <li class="md:hidden"><img class="ml-[8px] w-[20px] h-[20px] " src="assets/phone_icon.png" alt="phone_icon"></li>
+                </ul>
+            </div>
+            <div class=" md:w-[50%] lg:w-[33%] hidden md:block flex justify-end items-center text-[#fff] ">
+                <p class="text-[12px] mt-[5px] font-semibold inline " >Χρειάζεστε βοήθεια? Καλέστε μας: 210 269 3600 </p>
+                <img class=" ml-[5px] w-[20px] h-[20px] hidden md:inline " src="assets/phone_icon.png" alt="phone_icon"> 
+            </div>
+        </div>
+
+        <!-- navigations -->
+        <nav>
+            <div class="px-[20px] h-[83px] border-b shadow flex items-center">
+                <div class="flex justify-between md:justify-start w-[100%] md:w-[50%] ">
+                    <img class="w-[180px] h-[50px] " src="assets/main logo.svg" alt="syndesmos logo">
+                    <div class="flex justify-center items-center">
+                        <div class="ml-[50px]">
+                            <img class=" w-[30px] h-[30px] " src="assets/Group 15346.svg" alt="burger">
+                        </div>
+                        <p class="ml-[20px] text-[16px] text-[#161615] hidden md:block ">Προϊόντα</p>
+                    </div>
+                </div>
+
+                <div class="w-[50%] hidden md:flex  ">
+                    <input type="text" placeholder="ψάχνω για …" class="search-input invisible lg:visible border-b-2 border-grey outline-none w-[60%]  " >
+                    <img class="mx-[10px]" src="assets/icon_search.svg" alt="search Icon">
+                    <img class="mx-[10px] h-[30px] w-[30px] " src="assets/heart_icon.png" alt="heart Icon">
+                    <img class="mx-[10px] h-[30px] w-[30px] " src="assets/bag_icon.png" alt="bag Icon">
+                    <img class="mx-[10px] h-[30px] w-[30px]  text-[red] " src="assets/user_icon.png" alt="user Icon">
+                    <p class="text-[#DD1B1E] text-[16px] font-semibold ">Σύνδεση</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main class="wrapper">
+        
+        <!-- Hero section -->
+        <section class="flex flex-col" >
+
+            <!-- 1st row -->
+            <div class="p-[10px] md:p-[20px] order-2 md:order-1 flex justify-between overflow-hidden h-[190px] md:h-[416px] ">
+                <div class=" w-[99%] xl:w-[49.5%]  flex justify-between ">
+                    <div class="w-[49.5%] md:order-1 order-2 relative h-[100%] bg-cover bg-no-repeat bg-[url('/assets/10-10-75-051_3-1.png')]">
+                        <div class="z-10 absolute top-0 left-0 h-[60%] w-[100%] bg-[#DD1B1E] mix-blend-multiply ">
+                        </div>
+                        <div class="z-20 relative h-[60%] flex flex-col place-content-between md:py-[20px] p-[10px] md:pr-[30px]">
+                            <p class=" text-[20px] md:text-[28px] text-right text-[#fff] font-extrabold ">Παιδικά <br> & Βρεφικά!</p>
+                            <p class="text-[14px] md:text-[24px] text-right text-[#fff] ">KIDS CARE!</p>
+                        </div>
+                    </div>
+                    <div class="w-[49.5%] h-[100%] md:order-2 order-1 p-[10px] md:p-[30px] bg-[#009289]">
+                        <div class="flex ">
+                            <p class=" text-[55px] md:text-[110px] leading-[60px] md:leading-[90px] font-extrabold text-[#fff] ">30</p>
+                            <p class=" self-end text-[15px] md:text-[30px] font-extrabold text-[#fff] ">χρόνια</p>
+                        </div>
+                        <p class=" text-[15px] md:text-[30px] text-[#fff]  ">δίπλα στον Έλληνα <br> φαρμακοποιό και <br> επαγγελματία <br> υγείας</p>
+                    </div>
+                </div>
+                <div class="w-[49.5%] hidden xl:block bg-cover bg-no-repeat bg-[url('/assets/galesyn_ship_campaign_2022_woman_900x400-03-1.png')]">
+
+                </div>
+            </div>
+
+            <!-- 2nd row -->
+            <div class=" md:order-2 order-1 p-[10px] md:px-[20px] flex justify-between overflow-hidden h-[200px] md:h-[416px] ">
+                <div class=" w-[99%] md:w-[59.5%] xl:w-[46%] relative h-[100%] bg-cover bg-[url('/assets/Mask_Group_74.png')]">
+                    <div class="bg-[#EF7F1A] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                    </div>
+
+                    <div class="float-right relative z-20 md:pt-[30px] p-[10px] md:pr-[48px] ">
+                        <p class="text-right text-[18px] md:text-[24px] text-[#fff] ">Sales</p>
+                        <p class="text-right text-[22px] md:text-[28px] mt-[10px] font-bold text-[#fff] ">Γνωρίστε τη νέα σειρά <br> δερμοκαλλυντικών <br> προϊόντων Galesyn®</p>
+                    </div>
+                </div>
+                <div class=" hidden md:block w-[39.5%] xl:w-[33%] relative bg-[#E0E00D] ">
+                    <div class=" pt-[30px] pl-[33px] ">
+                        <p class="text-[24px] text-[#212121] ">new products</p>
+                        <p class="text-[28px] mt-[10px] font-bold text-[#212121] ">Ενυδατικό <br> Γαλάκτωμα με <br> Εντομοαπωθητική <br> Δράση</p>
+                    </div>
+                    <div class="absolute right-[23px] bottom-[26px] ">
+                        <img src="assets\galesyn_products.png" alt="galesyn_products">
+                    </div>
+                </div>
+                <div class="w-[19%] hidden xl:block border bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_73.png')]">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- special icons -->
+        <section class="wrapper mt-[40px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <div class="w-[100%] h-[60%] md:hidden flex justify-around ">
+                    <img class=" mx-[10px] h-[35px] sm:h-[50px] " src="assets/home_icon.png" alt="home Icon">
+                    <img class=" mx-[10px] h-[35px] sm:h-[50px] " src="assets/icon_search.svg" alt="search Icon">
+                    <img class=" mx-[10px] h-[35px] sm:h-[50px]  " src="assets/heart_icon.png" alt="heart Icon">
+                    <img class=" mx-[10px] h-[35px] sm:h-[50px]  " src="assets/bag_icon.png" alt="bag Icon">
+                    <img class=" mx-[10px] h-[35px] sm:h-[50px]  " src="assets/user_icon.png" alt="user Icon">
+                </div>
+            </div>
+        </section>
+
+        <!-- products -->
+        <section class="wrapper mt-[40px] ">
+            <div class=" px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <div class="">
+                    <h1 class="text-[26px] font-bold mb-10">Νέα Προϊόντα</h1>
+
+                </div>
+
+                <!-- products  -->
+                <div class="products flex flex-wrap justify-between">
+                    <div class="product w-[49.5%] md:w-[32.5%] lg:w-[24.5%] xl:w-[19.5%] h-[480px]">
+                        <div class="flex w-[100%] h-[375px] justify-center items-center">
+                            <img src="assets/044056_galesyn_anti_hair_loss_lotion_box_400x800.png" alt="galesyn_anti_hair_loss_lotion_box/">
+                        </div>
+                        <hr>
+                        <div class="px-[12px] flex flex-col mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Women’s Placement Thinstrap</h2>
+                            <p class="text-[14px] flex-1 text-[#5A5A5A] truncate ">Muscleback Swimsuit Blue/Black</p>
+                            <p class="text-[14px] text-[#5A5A5A] font-bold">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+
+                    <div class="product w-[49.5%] md:w-[32.5%] lg:w-[24.5%] xl:w-[19.5%] h-[480px]">
+                        <div class="flex w-[100%] h-[375px] justify-center items-center">
+                            <img src="assets/10-22-12-403_1.png" alt="10-22-12-403_1">
+                        </div>
+                        <hr>
+                        <div class="px-[12px] flex flex-col mt-[13px]">
+                            <h2 class="text-[16px] font-bold">tonic mountain tea</h2>
+                            <p class="text-[14px] flex-1 text-[#5A5A5A] truncate ">Αφρόλουτρο με Αιθέρια Έλαια Ecopack 500ml</p>
+                            <p class="text-[14px] text-[#5A5A5A] font-bold">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+
+                    <div class="product w-[49.5%] md:w-[32.5%] lg:w-[24.5%] xl:w-[19.5%] h-[480px]">
+                        <div class="flex w-[100%] h-[375px] justify-center items-center">
+                            <img src="assets/044056_galesyn_anti_hair_loss_shampoo_400x800.png" alt="galesyn_anti_hair_loss_shampoo">
+                        </div>
+                        <hr>
+                        <div class="px-[12px] flex flex-col mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Erythro Forte</h2>
+                            <p class="text-[14px] flex-1 text-[#5A5A5A] truncate ">Dermotherapy Balsam Gold 200ml</p>
+                            <p class="text-[14px] text-[#5A5A5A] font-bold">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+
+                    <div class="product w-[49.5%] md:w-[32.5%] lg:w-[24.5%] xl:w-[19.5%] h-[480px]">
+                        <div class="flex w-[100%] h-[375px] justify-center items-center">
+                            <img src="assets/046000_moisturizing_emulsion_100_ml_galesyn_new-label_2021_400x800.png" alt="moisturizing_emulsion_100_ml_galesyn_new-label_2021_400x800.png">
+                        </div>
+                        <hr>
+                        <div class="px-[12px] flex flex-col mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Galesyn® Emulsion</h2>
+                            <p class="text-[14px] flex-1 text-[#5A5A5A] truncate ">Ενυδατικό γαλάκτωμα με αιθέρια έλαια και για προστασία από τα έντομα</p>
+                            <p class="text-[14px] text-[#5A5A5A] font-bold">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="product w-[49.5%] md:w-[32.5%] lg:w-[24.5%] xl:w-[19.5%] h-[480px]">
+                        <div class="flex w-[100%] h-[375px] justify-center items-center">
+                            <img src="assets\046001_galesyn_after_nip_30_ml-1.png" alt="galesyn_after_nip_30_ml-1">
+                        </div>
+                        <hr>
+                        <div class="px-[12px] flex flex-col mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Galesyn® After Nip</h2>
+                            <p class="text-[14px] flex-1 text-[#5A5A5A] truncate ">Απαλό, καταπραϋντικό, δροσιστικό gel Μοναδική σύνθεση</p>
+                            <p class="text-[14px] text-[#5A5A5A] font-bold">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="product w-[49.5%] md:w-[32.5%] lg:w-[24.5%] xl:w-[19.5%] h-[480px]">
+                        <div class="flex w-[100%] h-[375px] justify-center items-center">
+                            <img src="assets\kanavos_products.png" alt="kanavos_products">
+                        </div>
+                        <hr>
+                        <div class="px-[12px] flex flex-col mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Δαφνέλαιο Kanavos</h2>
+                            <p class="text-[14px] flex-1 text-[#5A5A5A] truncate ">Δαφνέλαιο Kanavos 250ml</p>
+                            <p class="text-[14px] text-[#5A5A5A] font-bold">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="product w-[49.5%] md:w-[32.5%] lg:w-[24.5%] xl:w-[19.5%] h-[480px]">
+                        <div class="flex w-[100%] h-[375px] justify-center items-center">
+                            <img src="assets\045131_galesyn_anti_hair_loss_shampoo_100_ml_400x800.png" alt="galesyn_anti_hair_loss_shampoo_100_ml">
+                        </div>
+                        <hr>
+                        <div class="px-[12px] flex flex-col mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Galesyn® Anti Hair Loss Shampoo</h2>
+                            <p class="text-[14px] flex-1 text-[#5A5A5A] truncate ">Σαμπουάν που ενδυναμώνει τις τρίχες συμβάλλοντας στη μείωση της τριχόπτωσης.</p>
+                            <p class="text-[14px] text-[#5A5A5A] font-bold">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="product w-[49.5%] md:w-[32.5%] lg:w-[24.5%] xl:w-[19.5%] h-[480px]">
+                        <div class="flex w-[100%] h-[375px] justify-center items-center">
+                            <img src="assets\145247-web_1010x1180_transparent_png.png" alt="web_1010x1180_transparent">
+                        </div>
+                        <hr>
+                        <div class="px-[12px] flex flex-col mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Soft Shampoo & Bath</h2>
+                            <p class="text-[14px] flex-1 text-[#5A5A5A] truncate ">Υποαλλεργικό, μειώνει τον κίνδυνο εμφάνισης αλλεργιών</p>
+                            <p class="text-[14px] text-[#DD1B1E] font-bold">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="product w-[49.5%] md:w-[32.5%] lg:w-[24.5%] xl:w-[19.5%] h-[480px]">
+                        <div class="flex w-[100%] h-[375px] justify-center items-center">
+                            <img src="assets\10-22-01-587_1_1.png" alt="10-22-01-587_1_1">
+                        </div>
+                        <hr>
+                        <div class="px-[12px] flex flex-col mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Aqua Beelicious</h2>
+                            <p class="text-[14px] flex-1 text-[#5A5A5A] truncate ">Oil-Free Κρέμα- Gel Ενυδάτωσης ελαφριάς υφής</p>
+                            <p class="text-[14px] text-[#5A5A5A] font-bold">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="product w-[49.5%] md:w-[32.5%] lg:w-[24.5%] xl:w-[19.5%] h-[480px]">
+                        <div class="flex w-[100%] h-[375px] justify-center items-center">
+                            <img src="assets\BY90-Solo_1.png" alt="BY90-Solo_1">
+                        </div>
+                        <hr>
+                        <div class="px-[12px] flex flex-col mt-[13px]">
+                            <h2 class="text-[16px] font-bold">BY 90 – Βρεφοζυγός Beurer</h2>
+                            <p class="text-[14px] flex-1 text-[#5A5A5A] truncate ">Βρεφοζυγός Ψηφιακός Beurer -BY 80- Ικανότητα Ζύγισης: 20kg/5gr</p>
+                            <p class="text-[14px] text-[#5A5A5A] font-bold">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- sliders -->
+
+        <section class="wrapper overflow-hidden mt-[100px]">
+            <div class="sliders w-[100%] border ">
+                <div class="" >
+                    <div class="flex flex-col justify-between items-start py-[28px] px-[50px] w-[80vw] mx-[10px] h-[370px] md:h-[448px] bg-cover bg-[url('assets/galesyn_repellent_onmarble_banner_900x400.png')]">
+                        <div class="">
+                            <p class=" text-[18px] md:text-[26px] text-[#fff] " >Galesyn®</p>
+                            <p class="text-[22px] md:text-[32px] text-[#fff] font-bold " >Γνωρίστε τη νέα σειρά <br> δερμοκαλλυντικών <br> προϊόντων</p>
+                        </div>
+    
+                        <button class="text-[14px] text-[#fff] border bg-transparent px-[10px] py-[14px] " >δείτε περισσότερα</button>
+                    </div>
+                </div>
+                <div class="">
+                    <div class=" relative py-[28px] px-[50px] w-[80vw] mx-[10px] h-[370px] md:h-[448px] bg-contain bg-[url('assets/012388_syndesmos_pack_periektis_me_diplo_poma_child_proof_30ml_50tmx_5205056123887.png')]">
+                        <div class="bg-[#DD1B1E] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                        </div>
+                        <div class=" relative z-20 flex flex-col justify-between items-start h-[100%] h-[100%] ">
+                            <div class="">
+                                <p class="text-[18px] md:text-[26px] text-[#fff] " >Νέα προϊόντα</p>
+                                <p class="text-[22px] md:text-[32px] text-[#fff] font-bold " >Περιέκτης Με Διπλό Πώμα Child <br> Proof 30ml 50τμχ</p>
+                            </div>
+        
+                            <button class="text-[14px] text-[#fff] border bg-transparent px-[10px] py-[14px] " >δείτε περισσότερα</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex justify-between py-[28px] px-[50px] w-[80vw] mx-[10px] h-[370px] md:h-[448px] bg-cover bg-[#3A66B8] ">
+                        <div class="flex flex-col justify-between items-start">
+                            <div class="">
+                                <p class="text-[18px] md:text-[26px] text-[#fff] " >Galesyn®</p>
+                                <p class="text-[22px] md:text-[32px] text-[#fff] font-bold " >Γνωρίστε τη νέα σειρά <br> δερμοκαλλυντικών <br> προϊόντων</p>
+                            </div>
+        
+                            <button class="text-[14px] text-[#fff] border bg-transparent px-[10px] py-[14px] " >δείτε περισσότερα</button>
+                        </div>
+
+                        <div class=" hidden md:flex">
+                            <img class="translate-x-[140px] translate-y-10 " src="assets\bm47-target-usa.png" alt="bm47-target-usa">
+                            <div class="flex flex-col justify-between h-[100%] w-[100%] ">
+                                <p class="text-white " >Πιεσόμετρο Μπράτσου</p>
+                                <img src="assets/Ebene 2.svg" alt="Ebene 2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="wrapper mt-[140px] ">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <h2 class="text-[26px] font-bold mb-10">Διάλεξε κατηγορία</h2>
+
+                <div class="pics-slides relative flex flex-wrap justify-between ">
+                    <div class=" w-[30%] md:w-[13.2%]">
+                        <div class="flex object-cover w-[100%] h-[140px] sm:h-[165px] md:h-[197px] justify-center items-center">
+                            <img src="assets/Mask Group 60.png" alt="Mask Group 60">
+                        </div>
+                        <p class="text-center mt-[15px] text-[#212121] ">PACK</p>
+                    </div>
+
+                    <div class="w-[30%] md:w-[13.2%]">
+                        <div class="flex object-cover w-[100%] h-[140px] sm:h-[165px] md:h-[197px] justify-center items-center">
+                            <img src="assets/Mask Group 66.png" alt="Mask Group 66">
+                        </div>
+                        <p class="text-center mt-[15px] text-[#212121] ">Α’ YΛΕΣ</p>
+                    </div>
+
+                    <div class="w-[30%] md:w-[13.2%]">
+                        <div class="flex object-cover w-[100%] h-[140px] sm:h-[165px] md:h-[197px] justify-center items-center">
+                            <img src="assets/Mask Group 63.png" alt="Mask Group 63">
+                        </div>
+                        <p class="text-center mt-[15px] text-[#212121] ">ΑΝΑΛΩΣΙΜΑ & ΕΞΟΠΛΙΣΜΟΣ ΙΑΤΡΕΙΟΥ</p>
+                    </div>
+
+                    <div class="w-[30%] md:w-[13.2%]">
+                        <div class="flex object-cover w-[100%] h-[140px] sm:h-[165px] md:h-[197px] justify-center items-center">
+                            <img src="assets/Mask Group 65.png" alt="Mask Group 65">
+                        </div>
+                        <p class="text-center mt-[15px] text-[#212121] ">ΑΤΟΜΙΚΗ ΦΡΟΝΤΙΔΑ ΕΥΕΞΙΑ</p>
+                    </div>
+
+                    <div class="w-[30%] md:w-[13.2%]">
+                        <div class="flex object-cover w-[100%] h-[140px] sm:h-[165px] md:h-[197px] justify-center items-center">
+                            <img src="assets/Mask Group 62.png" alt="Mask Group 62">
+                        </div>
+                        <p class="text-center mt-[15px] text-[#212121] ">ΥΓΕΙΑ - ΟΜΟΡΦΙA</p>
+                    </div>
+
+                    <div class="w-[30%] md:w-[13.2%]">
+                        <div class="flex object-cover w-[100%] h-[140px] sm:h-[165px] md:h-[197px] justify-center items-center">
+                            <img src="assets/Mask Group 64.png" alt="Mask Group 64">
+                        </div>
+                        <p class="text-center mt-[15px] text-[#212121] ">ΕΡΓΑΣΤΗΡΙΑΚΟΣ ΕΞΟΠΛΙΣΜΟΣ</p>
+                    </div>
+
+                    <div class="w-[30%] md:w-[13.2%]">
+                        <div class="flex object-cover w-[100%] h-[140px] sm:h-[165px] md:h-[197px] justify-center items-center">
+                            <img src="assets/Mask Group 61.png" alt="Mask Group 61">
+                        </div>
+                        <p class="text-center mt-[15px] text-[#212121] ">ΙΑΤΡΙΚΕΣ ΣΥΣΚΕΥΕΣ</p>
+                    </div>
+
+                    <div class="w-[30%] md:w-[13.2%]">
+                        <div class="flex object-cover w-[100%] h-[140px] sm:h-[165px] md:h-[197px] justify-center items-center">
+                            <img src="assets/Mask Group 62.png" alt="Mask Group 62">
+                        </div>
+                        <p class="text-center mt-[15px] text-[#212121] ">ΥΓΕΙΑ - ΟΜΟΡΦΙA</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section class="wrapper mt-[100px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <h2 class="text-[26px] text-center text-[#009289] font-bold mb-10">Διάλεξε κατηγορία</h2>
+                <div class=" py-8 md:p-0 md:h-[280px] relative w-[100%] bg-[url('assets/Mask_Group_58.png')]  " >
+                    <div class="bg-[#009289] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                    </div>
+
+                    <div class=" px-[20px] md:px-[80px] h-[100%] w-[100%] relative z-20 flex justify-between items-center">
+                        <div class="">
+                            <p class=" text-[18px] md:text-[26px] text-[#fff]">Είστε επαγγελματίας;</p>
+                            <h3 class=" text-[22px] md:text-[36px] font-semibold mb-[35px] text-[#fff]">Αποκτήστε πρόσβαση στο e-shop.</h3>
+
+                            <a class="border-[#fff] text-[#fff] border p-[12px]  " href="#">σύνδεση / εγγραφη</a>
+                        </div>
+
+                        <div class=" mb-10 md:mb-0 ">
+                            <img src="assets/Group 4621.svg" alt="group 40621">
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </section>
+
+
+        <section class="wrapper mt-[100px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <h2 class="text-[26px] text-[#212121] font-bold mb-10">Περισσότερα Προϊόντα</h2>
+                <div class=" flex flex-wrap justify-between ">
+                    <div class="w-[99.5%] 2xl:w-[49.5%] mb-4 h-[300px] md:h-[400px] lg:h-[761px] relative bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_75.png')]">
+                        <span class="absolute text-[14px] text-[#fff] top-[20px] left-[15px] bg-[#212121] px-[12px] py-[5px] rounded ">
+                            BEE SUN SAFE
+                        </span>
+                        <div class="absolute left-0 bottom-0 p-2 md:p-4 ">
+                            <h2 class="text-[#fff] font-bold text-[16px] md:text-[18px] ">Nivea Cellular Luminous630</h2>
+                            <p class="text-[#fff] text-[12px] md:text-[14px] ">Κρέμα ημέρας κατά των κηλίδων</p>
+                        </div>
+                    </div>
+                    <div class="w-[99.5%] 2xl:w-[49.5%] flex flex-wrap content-between justify-between">
+                        <div class="w-[49.5%] relative mb-4 h-[200px] md:h-[370px] bg-cover bg-no-repeat bg-[url('/assets/Rectangle_6196.svg')]">
+                            <span class="absolute text-[14px] text-[#fff] top-[20px] left-[15px] bg-[#212121] px-[12px] py-[5px] rounded ">
+                                0%
+                            </span>
+
+                            <div class="w-[100%] flex justify-center ">
+                                <img src="assets/189bdde9e91e4209aad6a4814ee4b12b-web_1010x1180_transparent_png copy.png" alt="189bdde9e91e4209aad6a4814ee4b12b-web_1010x1180_transparent_png">
+                            </div>
+                            <div class="absolute left-0 bottom-0 p-2 md:p-4 ">
+                                <h2 class="text-[#212121] font-bold text-[16px] md:text-[18px] ">Nivea Cellular Luminous630</h2>
+                                <p class="text-[#5A5A5A] text-[12px] md:text-[14px] ">Κρέμα ημέρας κατά των κηλίδων</p>
+                            </div>
+                        </div>
+
+                        <div class="w-[49.5%] relative mb-4 h-[200px] md:h-[370px] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_76.png')]">
+                            <span class="absolute text-[14px] text-[#fff] top-[20px] left-[15px] bg-[#212121] px-[12px] py-[5px] rounded ">
+                                0% 
+                            </span>
+
+                            <div class="absolute left-0 bottom-0 p-2 md:p-4 ">
+                                <h2 class="text-[#212121] font-bold text-[16px] md:text-[18px] ">Nivea Cellular Luminous630</h2>
+                                <p class="text-[#5A5A5A] text-[12px] md:text-[14px] ">Κρέμα ημέρας κατά των κηλίδων</p>
+                            </div>
+                        </div>
+
+                        <div class=" w-[99.5%] md:w-[49%] relative mb-4 h-[300px] md:h-[380px] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_77.png')]">
+                            <span class="absolute text-[14px] text-[#fff] top-[20px] left-[15px] bg-[#212121] px-[12px] py-[5px] rounded ">
+                                20% 
+                            </span>
+                            <div class="absolute left-0 bottom-0 p-2 md:p-4 ">
+                                <h2 class="text-[#212121] font-bold text-[16px] md:text-[18px] ">Nivea Cellular Luminous630</h2>
+                                <p class="text-[#5A5A5A] text-[12px] md:text-[14px] ">Κρέμα ημέρας κατά των κηλίδων</p>
+                            </div>
+                        </div>
+
+                        <div class="w-[49%] hidden md:block relative h-[380px] bg-cover bg-no-repeat bg-[url('/assets/10-22-01-587.png')]">
+                            <div class="absolute left-0 bottom-0 p-2 md:p-4 ">
+                                <h2 class="text-[#fff] font-bold text-[16px] md:text-[18px] ">Nivea Cellular Luminous630</h2>
+                                <p class="text-[#fff] text-[12px] md:text-[14px] ">Κρέμα ημέρας κατά των κηλίδων</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="wrapper mt-[50px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <div class=" relative w-[100%] bg-cover bg-[url('assets/Mask_Group_59.png')]  " >
+                    <div class="bg-[#5A5A5A] md: h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                    </div>
+                    <div class=" relative z-20 p-[20px] md:p-[58px] pt-[33px] h-[100%] w-[100%] flex flex-col md:flex-row justify-between">
+                        <div class="mb-8 md:mb-0">
+                            <img src="assets/nivea logo.svg" alt="nivea logo">
+                        </div>
+
+                        <div class="">
+                            <p class=" text-[18px] md:text-[26px] text-[#fff]">Είστε επαγγελματίας;</p>
+                            <h3 class=" text-[24px] md:text-[36px] font-semibold mb-[35px] text-[#fff]">Εξερεύνησε τη βρεφική <br> συλλογή της NIVEA και <br> βρες την περιποίηση που <br> χρειάζεται το μωρό σου</h3>
+
+                            <a class="border-[#fff] text-[16px] float-right mt-[50px] text-[#fff] border p-[12px]  " href="#">δείτε περισσότερα</a>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </section>
+
+
+        <!-- brands -->
+        <section class="wrapper hidden lg:block mt-[100px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <h2 class="text-[18px] md:text-[26px] text-[#212121] font-bold mb-10">Γνωρίστε τα Brands</h2>
+                <div class=" flex flex-wrap justify-between overflow-hidden md:h-[761px] ">
+                    <div class="w-[100%] flex flex-wrap content-between justify-between">
+                        <div class="w-[24%] h-[49%] relative bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_70.png')]">
+                            <div class="bg-[#7C7C7C] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                            </div>
+                            <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                <img src="assets/nivea logo.svg" alt="nivea logo">
+                            </div>
+                        </div>
+
+                        <div class="w-[24%] h-[49%] relative bg-[#3A66B8] ">
+                            <div class="bg-[#3A66B8] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                            </div>
+                            <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                <img src="assets\logo_cs03 white.png" alt="logo_cs03">
+                            </div>
+                        </div>
+
+                        <div class="w-[24%] relative h-[49%] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_71.png')]">
+                            <div class="bg-[#C71553] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                            </div>
+                            <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                <img src="assets/Ebene 2-1.svg" alt="Ebene ">
+                            </div>
+                        </div>
+                        
+                        <div class="w-[24%] h-[49%] relative bg-[#DD1B1E] ">
+                            <div class="bg-[#3A66B8] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                            </div>
+                            <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                <img src="assets\logo_kanavos-horizontal white.png" alt="logo_kanavos-horizontal white">
+                            </div>
+                        </div>
+                        
+                        <div class="w-[24%] relative h-[49%] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_68.png')]">
+                            <div class="bg-[#DD1B1E] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                            </div>
+                            <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                <img src="assets\logo_hartmann bw.png" alt="logo_hartmann bw ">
+                            </div>
+                        </div>
+                        
+                        <div class="w-[24%] relative h-[49%] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_69.png')]">
+                            <div class="bg-[#009289] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                            </div>
+                            <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                <img src="assets\logo_matsuda bw.png" alt="logo_matsuda bw">
+                            </div>
+                        </div>
+
+                        <div class="w-[24%] relative h-[49%] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_67.png')]">
+                            <div class="bg-[#EF7F1A] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                            </div>
+                            <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                <img src="assets\logo_chemco bw.png" alt="chemco bw">
+                            </div>
+                        </div>
+
+                        <div class="w-[24%] relative h-[49%] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_72.png')]">
+                            <div class="bg-[#7C7C7C] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                            </div>
+                            <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                <img src="assets\logo-light.png" alt="logo light">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <h2 class="text-[20px] text-center text-[#7C7C7C] mt-10 font-bold mb-10">Δείτε περισσότερα</h2>
+            </div>
+        </section>
+
+
+        <!-- brand slides for small devices -->
+        <section class="wrapper lg:hidden mt-[100px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <h2 class="text-[18px] md:text-[26px] text-[#212121] font-bold mb-10">Γνωρίστε τα Brands</h2>
+                <div class=" border flex flex-wrap justify-between overflow-hidden h-[148px] lg:h-[761px] ">
+                    <div class="brands-slides flex flex-wrap justify-between  border w-[100%] h-[100%]">
+                        <div class="w-[40%] mb-2 h-[148px]">
+                            <div class="w-[100%] h-[100%] relative bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_70.png')]">
+                                <div class="bg-[#7C7C7C] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                                </div>
+                                <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                    <img class="w-[90%]" src="assets/nivea logo.svg" alt="nivea logo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[40%] border h-[148px]">
+                            <div class="w-[100%] h-[100%] relative bg-[#3A66B8] ">
+                                <div class="bg-[#3A66B8] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                                </div>
+                                <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                    <img class="w-[90%]" src="assets\logo_cs03 white.png" alt="logo_cs03">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[40%] mb-2 h-[148px]">
+                            <div class="w-[100%] relative h-[100%] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_71.png')]">
+                                <div class="bg-[#C71553] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                                </div>
+                                <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                    <img class="w-[90%]" src="assets/Ebene 2-1.svg" alt="Ebene ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[40%] mb-2 h-[148px]">
+                            <div class="w-[100%] h-[100%] relative bg-[#DD1B1E] ">
+                                <div class="bg-[#3A66B8] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                                </div>
+                                <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                    <img class="w-[90%]" src="assets\logo_kanavos-horizontal white.png" alt="logo_kanavos-horizontal white">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[40%] mb-2 h-[148px]">
+                            <div class="w-[100%] relative h-[100%] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_68.png')]">
+                                <div class="bg-[#DD1B1E] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                                </div>
+                                <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                    <img class="w-[90%]" src="assets\logo_hartmann bw.png" alt="logo_hartmann bw ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[40%] mb-2 h-[148px]">
+                            <div class="w-[100%] relative h-[100%] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_69.png')]">
+                                <div class="bg-[#009289] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                                </div>
+                                <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                    <img class="w-[90%]" src="assets\logo_matsuda bw.png" alt="logo_matsuda bw">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[40%] mb-2 h-[148px]">
+                            <div class="w-[100%] relative h-[100%] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_67.png')]">
+                                <div class="bg-[#EF7F1A] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                                </div>
+                                <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                    <img class="w-[90%]" src="assets\logo_chemco bw.png" alt="chemco bw">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[40%] mb-2 h-[148px]">
+                            <div class="w-[100%] relative h-[100%] bg-cover bg-no-repeat bg-[url('/assets/Mask_Group_72.png')]">
+                                <div class="bg-[#7C7C7C] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                                </div>
+                                <div class="w-[100%] h-[100%] relative z-20 flex justify-center items-center ">
+                                    <img class="w-[90%]" src="assets\logo-light.png" alt="logo light">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <h2 class="text-[20px] text-center text-[#7C7C7C] mt-10 font-bold mb-10">Δείτε περισσότερα</h2>
+            </div>
+        </section>
+
+        <section class="wrapper px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px] mt-[100px]">
+            <div class=" py-[20px] xl:py-0 xl:h-[228px] overflow-inherit relative bg-[#009289] flex justify-between ">
+                <div class="flex justify-center px-[20px] lg:pl-[100px] xl:pl-[166px] items-center">
+                    <h2 class="text-[24px] md:text-[34px] font-bold text-[#fff] ">
+                        "Πάνω από 30 χρόνια δίπλα στον Έλληνα <br> φαρμακοποιό και επαγγελματία υγείας"
+                    </h2>
+                </div>
+
+                <img class="absolute right-[-50px] top-[-70px] hidden xl:block " src="assets/partner_mockup.png" alt="partner mockup">
+            </div>
+        </section>
+
+
+        <section class="wrapper mt-[100px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <div class="flex justify-between">
+                    <h2 class="text-[26px] text-[#212121] font-bold mb-10">Best Sellers</h2>
+                    <p class="text-[#212121] text-[16px] ">Όλα τα προϊόντα</p>
+                </div>
+
+
+                <!-- products -->
+
+                <div class="flex flex-wrap justify-between content-between ">
+                    <div class="w-[49.5%] xl:w-[32%] justify-center flex flex-col md:flex-row mb-7 h-[330px] md:h-[178px] md:border ">
+                        <div class=" w-[100%] md:w-[166px] h-[100%] flex justify-center items-center ">
+                            <img src="assets/044056_galesyn_anti_hair_loss_lotion_box_400x800 (1)-1.png" alt="galesyn_anti_hair_loss_lotion_box" class="" >
+                        </div>
+                        <div class="vl hidden md:block"></div>
+                        <div class="pl-[12px] flex flex-col justify-center mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Anti Hair Loss Lotion Galesyn®</h2>
+                            <p class="text-[14px] text-[#5A5A5A] ">Πρωτοποριακή λοσιόν μαλλιών</p>
+                            <p class="text-[14px] text-[#5A5A5A] mt-[16px]">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="w-[49.5%] xl:w-[32%] justify-center flex flex-col md:flex-row mb-7 h-[330px] md:h-[178px] md:border ">
+                        <div class=" w-[100%] md:w-[166px] h-[100%] flex justify-center items-center ">
+                            <img src="assets\041914_SynMask_syrgical_masks_3ply_Type_IIR_BFE_98_-me_lastixo_50tmx_5205056419140.png" alt="SynMask_syrgical_masks_3ply_Type_IIR_BFE_98_-me_lastixo" class="" >
+                        </div>
+                        <div class="vl hidden md:block"></div>
+                        <div class="pl-[12px] flex flex-col justify-center mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Μάσκες Χειρουργικές SynMask</h2>
+                            <p class="text-[14px] text-[#5A5A5A] ">3ply Type IIR BFE>98% με Λάστιχο 50τμχ</p>
+                            <p class="text-[14px] text-[#5A5A5A] mt-[16px]">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="w-[49.5%] xl:w-[32%] justify-center flex flex-col md:flex-row mb-7 h-[330px] md:h-[178px] md:border ">
+                        <div class=" w-[100%] md:w-[166px] h-[100%] flex justify-center items-center ">
+                            <img src="assets\050881_01_flevokathetiras_vygon_22g_vygonule_v_ref_110_808.png" alt="flevokathetiras_vygon_22g_vygonule_v_ref" class="" >
+                        </div>
+                        <div class="vl hidden md:block"></div>
+                        <div class="pl-[12px] flex flex-col justify-center mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Φλεβoκαθετήρας</h2>
+                            <p class="text-[14px] text-[#5A5A5A] ">Vygon 22G Vygonule V Ref:110.808</p>
+                            <p class="text-[14px] text-[#5A5A5A] mt-[16px]">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="w-[49.5%] xl:w-[32%] justify-center flex flex-col md:flex-row mb-7 h-[330px] md:h-[178px] md:border ">
+                        <div class=" w-[100%] md:w-[166px] h-[100%] flex justify-center items-center ">
+                            <img src="assets\015994_01_brita_on_tap_hf_antallaktiko_filtro_1tmx_4006387102449.png" alt="brita_on_tap_hf_antallaktiko_filtro" class="" >
+                        </div>
+                        <div class="vl hidden md:block"></div>
+                        <div class="pl-[12px] flex flex-col justify-center mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Brita Ανταλλακτικό Φίλτρο Βρύσης</h2>
+                            <p class="text-[14px] text-[#5A5A5A] ">On Tap HF New</p>
+                            <p class="text-[14px] text-[#5A5A5A] mt-[16px]">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="w-[49.5%] xl:w-[32%] justify-center flex flex-col md:flex-row mb-7 h-[330px] md:h-[178px] md:border ">
+                        <div class=" w-[100%] md:w-[166px] h-[100%] flex justify-center items-center ">
+                            <img src="assets\manusept_gel_475ml_xoris-antlia-2.png" alt="manusept_gel_475ml_xoris-antlia-2" class="" >
+                        </div>
+                        <div class="vl hidden md:block"></div>
+                        <div class="pl-[12px] flex flex-col justify-center mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Μάσκες Χειρουργικές SynMask</h2>
+                            <p class="text-[14px] text-[#5A5A5A] ">3ply Type IIR BFE>98% με Λάστιχο 50τμχ</p>
+                            <p class="text-[14px] text-[#5A5A5A] mt-[16px]">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="w-[49.5%] xl:w-[32%] justify-center flex flex-col md:flex-row mb-7 h-[330px] md:h-[178px] md:border ">
+                        <div class=" w-[100%] md:w-[166px] h-[100%] flex justify-center items-center ">
+                            <img src="assets\5205056419256.png" alt="Νέο Παλμικό Οξύμετρο Δακτύλου Matsuda CMS50D1" class="" >
+                        </div>
+                        <div class="vl hidden md:block"></div>
+                        <div class="pl-[12px] flex flex-col justify-center mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Νέο Παλμικό Οξύμετρο Δακτύλου Matsuda CMS50D1</h2>
+                            <p class="text-[14px] text-[#5A5A5A] ">Matsuda CMS50D1</p>
+                            <p class="text-[14px] text-[#5A5A5A] mt-[16px]">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="w-[49.5%] xl:w-[32%] justify-center flex flex-col md:flex-row mb-7 h-[330px] md:h-[178px] md:border ">
+                        <div class=" w-[100%] md:w-[166px] h-[100%] flex justify-center items-center ">
+                            <img src="assets\041903_SynMask_GR_black_3ply_Type_II_BFE_98_me_lastixo_20tmx_5205056419034.png" alt="Μάσκες Χειρουργικές SynMask GR" class="" >
+                        </div>
+                        <div class="vl hidden md:block"></div>
+                        <div class="pl-[12px] flex flex-col justify-center mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Μάσκες Χειρουργικές SynMask GR</h2>
+                            <p class="text-[14px] text-[#5A5A5A] ">Μαύρες 3ply Type II BFE>98% με Λάστιχο 20τμχ</p>
+                            <p class="text-[14px] text-[#5A5A5A] mt-[16px]">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="w-[49.5%] xl:w-[32%] justify-center flex flex-col md:flex-row mb-7 h-[330px] md:h-[178px] md:border ">
+                        <div class=" w-[100%] md:w-[166px] h-[100%] flex justify-center items-center ">
+                            <img src="assets\016025_01_acetone_1lt_chemco.png" alt="Acetone CHEMCO 1lt" class="" >
+                        </div>
+                        <div class="vl hidden md:block"></div>
+                        <div class="pl-[12px] flex flex-col justify-center mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Acetone CHEMCO 1lt</h2>
+                            <p class="text-[14px] text-[#5A5A5A] "></p>
+                            <p class="text-[14px] text-[#5A5A5A] mt-[16px]">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+                    <div class="w-[49.5%] xl:w-[32%] justify-center flex flex-col md:flex-row mb-7 h-[330px] md:h-[178px] md:border ">
+                        <div class=" w-[100%] md:w-[166px] h-[100%] flex justify-center items-center ">
+                            <img src="assets\e649d82316a640e3910d0cd2fc164dee-web_1010x1180_transparent_png.png" alt="Nivea" class="" >
+                        </div>
+                        <div class="vl hidden md:block"></div>
+                        <div class="pl-[12px] flex flex-col justify-center mt-[13px]">
+                            <h2 class="text-[16px] font-bold">Nivea</h2>
+                            <p class="text-[14px] text-[#5A5A5A] ">PROTECT & MOISTURE LOTION SPF 20</p>
+                            <p class="text-[14px] text-[#5A5A5A] mt-[16px]">Συνδεθείτε για να δείτε την τιμή</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="wrapper mt-[100px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <p class="text-[#212121] font-bold text-[18px] ">Δείτε ακόμα </p>
+                <h2 class="text-[22px] md:text-[26px] text-[#212121] font-bold mb-10">Πρόσφατα άρθρα και νέα</h2>
+                <div class=" flex flex-wrap justify-between ">
+                    <div class="w-[99.5%] 2xl:w-[49.5%] mb-4 h-[300px] md:h-[400px] lg:h-[761px] flex justify-center items-center relative bg-[#E0E00D] ">
+                        <span class="absolute text-[14px] text-[#fff] top-[20px] left-[15px] bg-[#212121] px-[12px] py-[5px] rounded ">
+                            New Products
+                        </span>
+                        <div class="flex border w-[100%] h-[100%] ">
+                            <img class="w-[100%] h-[100%] " src="assets\046001_galesyn_after_nip_30_ml-1@2x.png" alt="046001_galesyn_after_nip_30_ml-1">
+                            <img class="w-[100%] h-[100%] " src="assets\046000_moisturizing_emulsion_100_ml_galesyn_new-label_2021_400x800@2x.png" alt="moisturizing_emulsion_100_ml_galesyn">
+                        </div>
+                        <div class="absolute left-0 bottom-0 p-2 md:p-4 ">
+                            <h2 class="text-[#212121] font-bold text-[16px] md:text-[18px] ">20 Μαΐου, 2021</h2>
+                            <p class="text-[#212121] w-[90%] text-[14px] ">Ως πότε θα γίνεσαι το φαγητό τους?</p>
+                        </div>
+
+                        <!-- arrow -->
+                        <div class="absolute bottom-[13px]  right-[20px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36.799" height="37.272" viewBox="0 0 36.799 37.272">
+                                <g id="arrow-right" transform="translate(0.75 1.061)">
+                                  <g id="Group_2503" data-name="Group 2503">
+                                    <path id="Path_4820" data-name="Path 4820" d="M6.962.7,24.148,18.144,6.962,35.853" transform="translate(10.852 -0.702)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                    <line id="Line_158" data-name="Line 158" x1="34.2" transform="translate(0 17.576)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                  </g>
+                                </g>
+                              </svg>
+                        </div>
+                    </div>
+                    <div class="w-[99.5%] 2xl:w-[49.5%] mb-4 flex flex-wrap content-between justify-between">
+                        <div class="w-[49%] relative h-[200px] md:h-[370px] flex justify-center items-center ">
+                            <span class="absolute text-[14px] text-[#fff] top-[20px] left-[15px] bg-[#212121] px-[12px] py-[5px] rounded ">
+                                0%
+                            </span>
+
+                            <div class="w-[100%] flex justify-center ">
+                                <img class="hidden md:block" src="assets\manusept_gel_475ml_xoris-antlia-2.png" alt="manusept_gel_475ml_xoris-antlia-2">
+                                <img class="hidden md:block" src="assets\manusept_gel_475ml_xoris-antlia-2.png" alt="manusept_gel_475ml_xoris-antlia-2">
+                                <img class="" src="assets\manusept_gel_475ml_xoris-antlia-2.png" alt="manusept_gel_475ml_xoris-antlia-2">
+                            </div>
+                            
+                            <div class="absolute left-0 bottom-0 p-2 md:p-4 ">
+                                <h2 class="text-[#212121] font-bold text-[16px] md:text-[18px] ">Nivea Cellular Luminous630</h2>
+                                <p class="text-[#5A5A5A] text-[14px] ">Κρέμα ημέρας κατά των κηλίδων</p>
+                            </div>
+                            <!-- arrow -->
+                            <div class="absolute bottom-[13px]  right-[20px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36.799" height="37.272" viewBox="0 0 36.799 37.272">
+                                    <g id="arrow-right" transform="translate(0.75 1.061)">
+                                    <g id="Group_2503" data-name="Group 2503">
+                                        <path id="Path_4820" data-name="Path 4820" d="M6.962.7,24.148,18.144,6.962,35.853" transform="translate(10.852 -0.702)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                        <line id="Line_158" data-name="Line 158" x1="34.2" transform="translate(0 17.576)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="w-[49%] relative h-[200px] md:h-[370px] mb-4 bg-cover bg-no-repeat bg-[url('/assets/Group_4618.png')]">
+                        <!-- <span class="absolute text-[14px] text-[#fff] top-[20px] left-[15px] bg-[#212121] px-[12px] py-[5px] rounded ">
+                            0% 
+                        </span>
+                        <div class="absolute left-0 bottom-0 p-2 md:p-4 ">
+                            <h2 class="text-[#212121] font-bold text-[16px] md:text-[18px] ">Nivea Cellular Luminous630</h2>
+                            <p class="text-[#5A5A5A] text-[14px] ">Κρέμα ημέρας κατά των κηλίδων</p>
+                        </div> -->
+
+                        <!-- arrow -->
+                        <div class="absolute bottom-[13px]  right-[20px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36.799" height="37.272" viewBox="0 0 36.799 37.272">
+                                <g id="arrow-right" transform="translate(0.75 1.061)">
+                                <g id="Group_2503" data-name="Group 2503">
+                                    <path id="Path_4820" data-name="Path 4820" d="M6.962.7,24.148,18.144,6.962,35.853" transform="translate(10.852 -0.702)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                    <line id="Line_158" data-name="Line 158" x1="34.2" transform="translate(0 17.576)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="w-[99.5%] md:w-[49%] relative h-[300px] md:h-[380px] mb-4 flex justify-center items-center ">
+                        <span class="absolute text-[14px] text-[#fff] top-[20px] left-[15px] bg-[#212121] px-[12px] py-[5px] rounded ">
+                            20% 
+                        </span>
+
+                        <div class="w-[100%] flex justify-center ">
+                            <img src="assets\015994_01_brita_on_tap_hf_antallaktiko_filtro_1tmx_4006387102449.png" alt="brita_on_tap_hf_antallaktiko_filtro">
+                        </div>
+
+                        <div class="absolute left-0 bottom-0 p-2 md:p-4 ">
+                            <h2 class="text-[#212121] font-bold text-[16px] md:text-[18px] ">Nivea Cellular Luminous630</h2>
+                            <p class="text-[#5A5A5A] text-[14px] ">Κρέμα ημέρας κατά των κηλίδων</p>
+                        </div>
+
+                        <!-- arrow -->
+                        <div class="absolute bottom-[13px]  right-[20px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36.799" height="37.272" viewBox="0 0 36.799 37.272">
+                                <g id="arrow-right" transform="translate(0.75 1.061)">
+                                <g id="Group_2503" data-name="Group 2503">
+                                    <path id="Path_4820" data-name="Path 4820" d="M6.962.7,24.148,18.144,6.962,35.853" transform="translate(10.852 -0.702)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                    <line id="Line_158" data-name="Line 158" x1="34.2" transform="translate(0 17.576)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="w-[49%] hidden md:block relative h-[49%] bg-cover bg-no-repeat bg-[url('/assets/10-22-01-587.png')]">
+                        <div class="absolute left-0 bottom-0 p-2 md:p-4 ">
+                            <h2 class="text-[#fff] font-bold text-[16px] md:text-[18px] ">Nivea Cellular Luminous630</h2>
+                            <p class="text-[#fff] text-[14px] ">Κρέμα ημέρας κατά των κηλίδων</p>
+                        </div>
+
+                        <!-- arrow -->
+                        <div class="absolute bottom-[13px]  right-[20px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36.799" height="37.272" viewBox="0 0 36.799 37.272">
+                                <g id="arrow-right" transform="translate(0.75 1.061)">
+                                <g id="Group_2503" data-name="Group 2503">
+                                    <path id="Path_4820" data-name="Path 4820" d="M6.962.7,24.148,18.144,6.962,35.853" transform="translate(10.852 -0.702)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+                                    <line id="Line_158" data-name="Line 158" x1="34.2" transform="translate(0 17.576)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+                                </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wrapper mt-[100px]">
+            <div class="md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <div class=" w-[100%] h-[370px] md:h-[600px] flex">
+                    <div class="w-[50%] h-[100%] hidden xl:block relative bg-[url('/assets/Mask_Group_80.png')] bg-cover bg-no-repeat ">
+                        <div class="bg-[#7C7C7C] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                        </div>
+
+                        <div class="float-right relative z-20 text-right pt-[59px] pb-[27px] pr-[20px] flex flex-col h-[100%]">
+                            <p class="text-[28px] text-[#fff]  ">NEW ARRIVALS</p>
+                            <p class="text-[200px] flex-1 font-extrabold text-[#fff] ">20</p>
+
+                            <p class=" text-[28px] text-[#fff] " >#COVID-19 PREVENTION</p>
+                        </div>
+                    </div>
+
+                    <div class=" w-[100%] xl:w-[50%] h-[100%] relative bg-[url('/assets/Mask_Group_79.png')] bg-cover bg-no-repeat ">
+                        <div class="bg-[#7C7C7C] h-[100%] z-10 absolute top-0 left-0 w-[100%] mix-blend-multiply ">
+                        </div>
+
+                        <div class="pt-[59px] relative z-20 pb-[27px] pl-[20px] flex flex-col h-[100%]">
+                            <p class=" text-[22px] md:text-[28px] text-[#fff]  ">EXCLUSIVE</p>
+                            <p class=" text-[80px] md:text-[200px] flex-1 font-extrabold text-[#fff] "> <span class="xl:hidden">20</span>22</p>
+
+                            <p class=" text-[18px] md:text-[28px] text-[#fff] " >#ΦΡΟΝΤΙΔΑ ΒΡΕΦΩΝ & ΠΑΙΔΙΩΝ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="wrapper mt-[100px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <div class="flex flex-wrap justify-center py-[10px] border-2">
+                    <div class="flex flex-col border-b md:border-b-0 md:border-b-0 md:border-r px-[25px] py-[40px] justify-center items-center w-[95%] md:w-[50%] lg:w-[25%] ">
+                         <h2 class="text-[#212121] text-[16px] font-bold text-center ">Πανελλαδική αποστολή</h2>
+                         <p class="text-[#5A5A5A] text-[14px] text-center ">Επωφεληθείτε από τις χαμηλές τιμές.</p>
+                    </div>
+                    <div class="flex flex-col border-b md:border-b-0 md:border-r px-[25px] py-[40px] justify-center items-center w-[95%] md:w-[50%] lg:w-[25%] ">
+                         <h2 class="text-[#212121] text-[16px] font-bold text-center ">Μόνο για Επαγγελματίες</h2>
+                         <p class="text-[#5A5A5A] text-[14px] text-center ">Η πρόσβαση στις τιμές των προϊόντων, απαιτεί έγκριση της εγγραφής σας.</p>
+                    </div>
+                    <div class="flex flex-col border-b md:border-b-0 md:border-r px-[25px] py-[40px] justify-center items-center w-[95%] md:w-[50%] lg:w-[25%] ">
+                         <h2 class="text-[#212121] text-[16px] font-bold text-center ">3000+ προιόντα</h2>
+                         <p class="text-[#5A5A5A] text-[14px] text-center ">Αποκτήστε πρόσβαση σε πάνω από 3000 παραφαρμακευτικά προϊόντα.</p>
+                    </div>
+                    <div class="flex flex-col px-[25px] py-[40px] justify-center items-center w-[95%] md:w-[50%] lg:w-[25%] ">
+                         <h2 class="text-[#212121] text-[16px] font-bold text-center ">Χαμηλές τιμές, χωρίς συνδρομή</h2>
+                         <p class="text-[#5A5A5A] text-[14px] text-center ">Αποκτήστε όλες μας τις υπηρεσίες ΔΩΡΕΑΝ, χωρίς επιπλέον χρεώσεις και συνδρομές.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="wrapper mt-[100px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <h2 class="text-[#212121] text-[24px]  text-center mb-[50px] font-bold ">Instagram Feed</h2>
+                <div class="insta-imgs flex border justify-between w-[100%] cursor-pointer ">
+                    <div class="h-[254px] w-[16.6%]">
+                        <div class="h-[100%] relative group ">
+                            <div class=" absolute w-[100%] h-[100%] top-0 left-0 group-hover:bg-[#9A9999] group-hover:mix-blend-multiply"></div>
+                            <img class="absolute top-[42%] left-[42%] hidden group-hover:block" src="assets\Group 4619.svg" alt="intagram logo">
+                            <img class="w-[100%] h-[100%] object-cover" src="assets\10-10-75-051_3.png" alt="galesyn">
+                        </div>
+                    </div>
+                    <div class="h-[254px] w-[16.6%]">
+                        <div class="h-[100%] relative group   ">
+                            <div class=" absolute w-[100%] h-[100%] top-0 left-0 group-hover:bg-[#9A9999] group-hover:mix-blend-multiply"></div>
+                            <img class="absolute top-[42%] left-[42%] hidden group-hover:block" src="assets\Group 4619.svg" alt="intagram logo">
+                            <img class="w-[100%] h-[100%] object-cover" src="assets\Mask Group 81.png" alt="c8tzz63j8D">
+                        </div>
+                    </div>
+                    <div class="h-[254px] w-[16.6%]">
+                        <div class="h-[100%] relative group   ">
+                            <div class=" absolute w-[100%] h-[100%] top-0 left-0 group-hover:bg-[#9A9999] group-hover:mix-blend-multiply"></div>
+                            <img class="absolute top-[42%] left-[42%] hidden group-hover:block" src="assets\Group 4619.svg" alt="intagram logo">
+                            <img class="w-[100%] h-[100%] object-cover" src="assets\galesyn_anti_hair_loss_solutions_all_cropped-scaled-e1588017495138-500x500.png" alt="galesyn_anti_hair_loss_solutions">
+                        </div>
+                    </div>
+                    <div class="h-[254px] w-[16.6%]">
+                        <div class="h-[100%] relative group   ">
+                            <div class=" absolute w-[100%] h-[100%] top-0 left-0 group-hover:bg-[#9A9999] group-hover:mix-blend-multiply"></div>
+                            <img class="absolute top-[42%] left-[42%] hidden group-hover:block" src="assets\Group 4619.svg" alt="intagram logo">
+                            <img class="w-[100%] h-[100%] object-cover" src="assets\family_galesyn_care_and_protect-500x500.png" alt="family_galesyn_care_and_protect">
+                        </div>
+                    </div>
+                    <div class="h-[254px] w-[16.6%]">
+                        <div class="h-[100%] relative group   ">
+                            <div class=" absolute w-[100%] h-[100%] top-0 left-0 group-hover:bg-[#9A9999] group-hover:mix-blend-multiply"></div>
+                            <img class="absolute top-[42%] left-[42%] hidden group-hover:block" src="assets\Group 4619.svg" alt="intagram logo">
+                            <img class="w-[100%] h-[100%] object-cover" src="assets\10-22-01-587.png" alt="10-22-01-587">
+                        </div>
+                    </div>
+                    <div class="h-[254px] w-[16.6%]">
+                        <div class="h-[100%] relative group   ">
+                            <div class=" absolute w-[100%] h-[100%] top-0 left-0 group-hover:bg-[#9A9999] group-hover:mix-blend-multiply"></div>
+                            <img class="absolute top-[42%] left-[42%] hidden group-hover:block" src="assets\Group 4619.svg" alt="intagram logo">
+                            <img class="w-[100%] h-[100%] object-cover" src="assets\Mask Group 78.png" alt="Mask Group 78">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="wrapper mt-[100px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <div class="flex flex-col lg:flex-row items-center py-[20px] lg:py-0 w-[100%] lg:h-[132px] bg-[#F9F9F9]  ">
+                    <div class=" w-[100%] lg:w-[50%] mb-8 lg:mb-0 px-[10px] md:px-[40px]">
+                        <p class="text-[16px] md:text-[18px] text-[#7C7C7C] font-semibold ">Θέλετε να εγγραφείτε στο newsletter μας; <br> Συμπληρώστε το email σας για να σας ενημερώνουμε για τα νέα μας.</p>
+                        <div>
+                            <input type="radio" name="radio" id="">
+                            <label for="radio" class="text-[14px] text-[#7C7C7C] font-extrabold " >Συμφωνώ με την Πολιτική απορρήτου <span class="text-[#DD1B1E] text-[22px] ">*</span></label>
+                        </div>
+                    </div>
+                    <div class=" w-[100%] lg:w-[50%] pr-[40px]">
+                        <form class="flex flex-wrap lg:flex-nowrap w-[100%] justify-end" action=" border ">
+                            <input class="border-2 p-[13px] mb-4 lg:mb-0 h-[55px] w-[98%] md:w-[90%] lg:w-[78%] text-[#212121] bg-transparent outline-none float-right border-[#212121]" placeholder="Το email σας" type="text" name="" id="">
+                            <button class="bg-[#212121] border-2 border-[#212121] text-[#fff] w-[98%] md:w-[90%] lg:w-auto ml-[12px] font-bold p-[13px] " type="submit" >Αποστολή</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <section class="wrapper bg-no-repeat bg-cover bg-[url('/assets/background_footer.png')] mt-[100px]">
+            <div class=" px-[20px] md:px-[40px] lg:px-[100px] xl:px-[240px]">
+                <div class="py-[90px] w-[100%]  ">
+                    <div class="mb-[80px]">
+                        <img src="assets\main logo.svg" alt="footer logo">
+                    </div>
+    
+                    <div class=" flex flex-col sm:flex-row flex-wrap w-[100%] justify-between ">
+                        <div class=" mb-[20px] sm:mb-0 pb-[10px] sm:pb-0 border-b-2 sm:border-b-0 md: sm:mb-0 w-[100%] sm:w-[49%] md:w-[32%] lg:w-[24%] xl:w-[19%] pb-[20px] flex flex-col justify-between">
+                            <p class="text-[#5A5A5A] text-[14px] ">Εταιρεία δεύτερης γενιάς που προμηθεύει φαρμακαποθήκες & φαρμακεία με παραφαρμακευτικά, ιατροτεχνολογικά & χημικές ουσίες πάνω από 30 χρόνια…</p>
+                        </div>
+
+                        <div class="mb-[20px] sm:mb-0 border-b-2 sm:border-b-0 md: pb-[10px] sm:pb-0 sm:mb-0 w-[100%] sm:w-[49%] md:w-[32%] lg:w-[24%] xl:w-[19%]">
+                            <ul class="">
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px] font-bold" href="#">Κατηγορίες</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Α’ Ύλες</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Pack</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Εργαστηριακός Εξοπλισμός</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Ατομική Φροντίδα - Ευεξία</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Αναλώσιμα & Εξοπλισμός Ιατρείου</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Ορθοπεδικά</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Φροντίδα Βρεφών & Παιδιών</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Υγεία - Ομορφιά</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Ιατρικές Συσκευές</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Διάφορα</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Είδη Covid-19</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-[20px] sm:mb-0 border-b-2 sm:border-b-0 md: pb-[10px] sm:pb-0 sm:mb-0 w-[100%] sm:w-[49%] md:w-[32%] lg:w-[24%] xl:w-[19%]">
+                            <ul class="">
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px] font-bold" href="#">Μενού</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">O Λογαριασμός μου</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Εταιρεία</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Nέα</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Επικοινωνία</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-[20px] sm:mb-0 border-b-2 sm:border-b-0 md: pb-[10px] sm:pb-0 sm:mb-0 w-[100%] sm:w-[49%] md:w-[32%] lg:w-[24%] xl:w-[19%]">
+                            <ul class="">
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px] font-bold" href="#">Πληροφορίες</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Διαθεσιμότητα ειδών</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Τρόποι Πληρωμής</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Τρόποι Αποστολής</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Πολιτική επιστροφών</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-[20px] sm:mb-0 border-b-2 sm:border-b-0 pb-[10px] sm:pb-0 sm:mb-0 w-[100%] sm:w-[49%] md:w-[32%] lg:w-[24%] xl:w-[19%]">
+                            <ul class="mb-[20px]">
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px] font-bold" href="#">Syndesmos S.A.</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Ψαρών 17 & Αιγίνης, 131 22 Ίλιον, Ελλάδα</a></li>
+                                <li><a class=" first-letter:text-[#DD1B1E] font-semibold text-[#212121] text-[14px] " href="#"><span class="text-[#DD1B1E]">T</span> 210 269 3600</a></li>
+                            </ul>
+
+                            <ul class="mb-[20px]">
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px] font-bold" href="#">GMP Facility</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">Νερατζούλας 10,</a></li>
+                                <li><a class="text-[#5A5A5A] hover:text-[#DD1B1E] text-[14px]" href="#">136 72 Αχαρναί, Ελλάδα</a></li>
+                            </ul>
+
+                            <ul class="">
+                                <li><a class=" first-letter:text-[#DD1B1E] font-semibold text-[#212121] text-[14px] " href="#"><span class="text-[#DD1B1E]">T</span> 210 269 3600</a></li>
+                                <li><a class=" first-letter:text-[#DD1B1E] font-semibold text-[#212121] text-[14px] " href="#"><span class="text-[#DD1B1E]">E</span> info@syndesmossa.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex my-[20px] ">
+                        <a href="#"><img class="mr-[20px]" src="assets/insta icon.svg" alt="insta icon"></a>
+                        <a href="#"><img class="mr-[20px]" src="assets/fb icon.svg" alt="fa icon"></a>
+                        <a href="#"><img class="mr-[20px]" src="assets/youtube icon.svg" alt="youtube icon"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wrapper mt-[10px] bg-[#F9F9F9]">
+            <div class=" px-[20px] md:px-[40px] lg:px-[100px] xl:px-[240px] w-[100%] h-[70px] ">
+                <div class="flex justify-center md:justify-between items-center h-[100%]">
+                    <div class="flex items-center hidden md:block ">
+                        <p class="text-[10px] text-[#818181]  ">© 2022 Syndesmos S.A. All rights reserved | Privacy Policy | Cookie Policy | Terms & Conditions</p>
+                    </div>
+                    <div class="md:float-right flex items-center ">
+                        <p class="mr-[5px] text-[10px] text-[#818181] ">designed & developed by</p>
+                        <img src="assets\Group 4703.svg" alt="hellenic technologies">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- special icons -->
+        <section class="wrapper mb-[20px] mt-[40px]">
+            <div class="px-[20px] md:px-[40px] lg:px-[100px] xl:px-[188px]">
+                <div class="w-[100%] h-[60px] md:hidden flex justify-around items-center ">
+                    <img class=" mx-[10px] h-[35px] sm:h-[50px]" src="assets/home_icon.png" alt="home Icon">
+                    <img class=" mx-[10px] h-[35px] sm:h-[50px]" src="assets/icon_search.svg" alt="search Icon">
+                    <img class=" mx-[10px] h-[35px] sm:h-[50px] " src="assets/heart_icon.png" alt="heart Icon">
+                    <img class=" mx-[10px] h-[35px] sm:h-[50px] " src="assets/bag_icon.png" alt="bag Icon">
+                    <img class=" mx-[10px] h-[35px] sm:h-[50px] " src="assets/user_icon.png" alt="user Icon">
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $('.sliders').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true,
+            });
+        });
+
+
+        $(document).ready(function(){
+            $('.pics-slides').slick({
+                prevArrow: '<button type="button" class="text-[#000] slick-prev">Previous</button>',
+                nextArrow: '<button type="button" class="text-[#000] slick-next">Next</button>',
+                infinite: true,
+                speed: 300,
+                slidesToShow: 7,
+                slidesToScroll: 2,
+                responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 5,
+                    slidesToScroll: 2,
+                }
+                },
+                {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 3
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 2
+                }
+                }
+            ]
+            });
+        });
+
+
+        $(document).ready(function(){
+            $('.insta-imgs').slick({
+                prevArrow: '<button type="button" class="text-[#000] slick-prev">Previous</button>',
+                nextArrow: '<button type="button" class="text-[#000] slick-next">Next</button>',
+                infinite: true,
+                speed: 300,
+                slidesToShow: 5,
+                slidesToScroll: 3,
+                responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 5,
+                    slidesToScroll: 2,
+                }
+                },
+                {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 3
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 2
+                }
+                }
+            ]
+            });
+        });
+
+
+        $(document).ready(function(){
+            $('.brands-slides').slick({
+                infinite: true,
+                speed: 300,
+                slidesToShow: 5,
+                slidesToScroll: 3,
+                responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToScroll: 2,
+                    slidesToShow: 4,
+                    autoPlay: true
+                }
+                },
+                {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 3,
+                    autoPlay: true,
+                    slidesToScroll: 2,
+                }
+                },
+                {
+                breakpoint: 640,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 2
+                }
+                }
+            ]
+            });
+        });
+   
+    </script>
+</body>
+</html>
